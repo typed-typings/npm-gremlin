@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/types/npm-gremlin#readme",
   "devDependencies": {
-    "greenkeeper-postpublish": "^1.0.1",
+    "greenkeeper-postpublish": "^1.3.0",
     "gremlin": "^2.3.2",
     "scmp": "^2.0.0",
     "ts-node": "^3.0.1",
