@@ -41,6 +41,8 @@ export class GremlinClient extends EventEmitter {
   readable (script: string): Readable;
   readable (script: string, bindings: Bindings): Readable;
   readable (script: string, bindings: Bindings, message: any): Readable;
+
+  closeConnection() : void;
 }
 
 export interface ClientOptions {
