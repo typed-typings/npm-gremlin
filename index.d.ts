@@ -95,5 +95,3 @@ export interface BoundFunctions {
 }
 
 export function bindForClient (client: GremlinClient, functions: Functions): BoundFunctions;
-
-export default { createClient, makeTemplateTag, bindForClient };
